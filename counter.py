@@ -1,5 +1,9 @@
-Name = input("Qual o seu nome?\n")
+print("***Calculator of characters in name***\n")
+
+Name = input("What is your name?\n")
 
 length = len(Name)
 
-print("O nome " + Name + " tem " + str(length))
+print("\nThe name " + Name + " have " + str(length))
+
+print(input("\nClick ENTER to close the window"))
